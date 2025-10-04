@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Caretaker Verification Table</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f8fafc;
+      padding: 40px;
+    }
+
+    h2 {
+      text-align: center;
+      color: #333;
+      margin-bottom: 20px;
+    }
+
+    table {
+      width: 90%;
+      max-width: 900px;
+      margin: auto;
+      border-collapse: collapse;
+      background: white;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    th, td {
+      padding: 14px 12px;
+      text-align: left;
+      border-bottom: 1px solid #eee;
+    }
+
+    th {
+      background-color: #e9f1ff;
+      color: #333;
+      font-weight: bold;
+    }
+
+    td a {
+      color: #007bff;
+      text-decoration: none;
+    }
+
+    td a:hover {
+      text-decoration: underline;
+    }
+
+    .status {
+      font-weight: bold;
+    }
+
+    .pending {
+      color: #f0ad4e;
+    }
+
+    .approved {
+      color: #28a745;
+    }
+
+    .rejected {
+      color: #dc3545;
+    }
+
+    .actions button {
+      padding: 6px 12px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      color: white;
+      font-size: 14px;
+      margin-right: 6px;
+    }
+
+    .approve {
+      background-color: #28a745;
+    }
+
+    .reject {
+      background-color: #dc3545;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>Caretaker Verification Table</h2>
+
+  <table>
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Full Name</th>
+        <th>Email</th>
+        <th>Phone number</th>
+        <th>Status</th>
+        <th>Action</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td>001</td>
+        <td>CareTaker</td>
+        <td>caretaker@example.com</td>
+        <td class="tel">0000000000 </td>
+        <td class="status pending">Pending</td>
+        <td class="actions">
+          <button class="approve">Approve</button>
+          <button class="reject">Reject</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+</body>
+</html>

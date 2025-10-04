@@ -397,12 +397,16 @@
                     <span>Visually Impaired</span></a>
             </div>
             <div class="menu-item">
-                <a href="#" style="text-decoration: none; color: white;"><i class="material-icons">support_agent</i>
+                <a href="{% url 'caretaker'%}" style="text-decoration: none; color: white;"><i class="material-icons">support_agent</i>
                     <span>Caretakers</span></a>
             </div>
             <div class="menu-item">
                 <a href="#" style="text-decoration: none; color: white;"><i class="material-icons">devices</i>
-                    <span>Devices</span></a>
+                    <span>View Complaints</span></a>
+            </div>
+             <div class="menu-item">
+                <a href="#" style="text-decoration: none; color: white;"><i class="material-icons">devices</i>
+                    <span>View Feedback</span></a>
             </div>
 {#            <div class="menu-item">#}
 {#                <i class="material-icons">notifications</i>#}
@@ -488,169 +492,169 @@
             </div>
 
             <!-- Recent Users Table -->
-            <div class="card">
-                <div class="card-header">
-                    <h3>Recent Users</h3>
-                    <button class="btn btn-primary">
-                        <i class="material-icons">refresh</i>
-                        Refresh
-                    </button>
-                </div>
-                <div class="card-body">
-                    <table class="table">
-                        <thead>
-                            <tr>
-                                <th>Name</th>
-                                <th>Email</th>
-                                <th>Type</th>
-                                <th>Status</th>
-                                <th>Last Active</th>
-                                <th>Actions</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>John Smith</td>
-                                <td>john.smith@example.com</td>
-                                <td>Visually Impaired</td>
-                                <td><span class="status active">Active</span></td>
-                                <td>2 hours ago</td>
-                                <td>
-                                    <div class="action-buttons">
-                                        <div class="action-btn edit">
-                                            <i class="material-icons">edit</i>
-                                        </div>
-                                        <div class="action-btn delete">
-                                            <i class="material-icons">delete</i>
-                                        </div>
-                                    </div>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>Sarah Johnson</td>
-                                <td>sarah.j@example.com</td>
-                                <td>Caretaker</td>
-                                <td><span class="status active">Active</span></td>
-                                <td>5 hours ago</td>
-                                <td>
-                                    <div class="action-buttons">
-                                        <div class="action-btn edit">
-                                            <i class="material-icons">edit</i>
-                                        </div>
-                                        <div class="action-btn delete">
-                                            <i class="material-icons">delete</i>
-                                        </div>
-                                    </div>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>Michael Brown</td>
-                                <td>m.brown@example.com</td>
-                                <td>Visually Impaired</td>
-                                <td><span class="status inactive">Inactive</span></td>
-                                <td>2 days ago</td>
-                                <td>
-                                    <div class="action-buttons">
-                                        <div class="action-btn edit">
-                                            <i class="material-icons">edit</i>
-                                        </div>
-                                        <div class="action-btn delete">
-                                            <i class="material-icons">delete</i>
-                                        </div>
-                                    </div>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>Emily Davis</td>
-                                <td>emily.davis@example.com</td>
-                                <td>Caretaker</td>
-                                <td><span class="status pending">Pending</span></td>
-                                <td>1 day ago</td>
-                                <td>
-                                    <div class="action-buttons">
-                                        <div class="action-btn edit">
-                                            <i class="material-icons">edit</i>
-                                        </div>
-                                        <div class="action-btn delete">
-                                            <i class="material-icons">delete</i>
-                                        </div>
-                                    </div>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>Robert Wilson</td>
-                                <td>r.wilson@example.com</td>
-                                <td>Visually Impaired</td>
-                                <td><span class="status active">Active</span></td>
-                                <td>30 minutes ago</td>
-                                <td>
-                                    <div class="action-buttons">
-                                        <div class="action-btn edit">
-                                            <i class="material-icons">edit</i>
-                                        </div>
-                                        <div class="action-btn delete">
-                                            <i class="material-icons">delete</i>
-                                        </div>
-                                    </div>
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-            </div>
-
-            <!-- Recent Activity -->
-            <div class="card">
-                <div class="card-header">
-                    <h3>Recent Activity</h3>
-                </div>
-                <div class="card-body">
-                    <table class="table">
-                        <thead>
-                            <tr>
-                                <th>User</th>
-                                <th>Activity</th>
-                                <th>Time</th>
-                                <th>Device</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>John Smith</td>
-                                <td>Object detection alert</td>
-                                <td>10:23 AM</td>
-                                <td>Device #A245</td>
-                            </tr>
-                            <tr>
-                                <td>Sarah Johnson</td>
-                                <td>Assistance request</td>
-                                <td>09:45 AM</td>
-                                <td>Device #B782</td>
-                            </tr>
-                            <tr>
-                                <td>Michael Brown</td>
-                                <td>Navigation assistance</td>
-                                <td>Yesterday</td>
-                                <td>Device #C156</td>
-                            </tr>
-                            <tr>
-                                <td>Emily Davis</td>
-                                <td>Text recognition</td>
-                                <td>Yesterday</td>
-                                <td>Device #D893</td>
-                            </tr>
-                            <tr>
-                                <td>Robert Wilson</td>
-                                <td>Emergency alert</td>
-                                <td>2 days ago</td>
-                                <td>Device #E421</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-            </div>
-        </div>
-    </div>
+{#            <div class="card">#}
+{#                <div class="card-header">#}
+{#                    <h3>Recent Users</h3>#}
+{#                    <button class="btn btn-primary">#}
+{#                        <i class="material-icons">refresh</i>#}
+{#                        Refresh#}
+{#                    </button>#}
+{#                </div>#}
+{#                <div class="card-body">#}
+{#                    <table class="table">#}
+{#                        <thead>#}
+{#                            <tr>#}
+{#                                <th>Name</th>#}
+{#                                <th>Email</th>#}
+{#                                <th>Type</th>#}
+{#                                <th>Status</th>#}
+{#                                <th>Last Active</th>#}
+{#                                <th>Actions</th>#}
+{#                            </tr>#}
+{#                        </thead>#}
+{#                        <tbody>#}
+{#                            <tr>#}
+{#                                <td>John Smith</td>#}
+{#                                <td>john.smith@example.com</td>#}
+{#                                <td>Visually Impaired</td>#}
+{#                                <td><span class="status active">Active</span></td>#}
+{#                                <td>2 hours ago</td>#}
+{#                                <td>#}
+{#                                    <div class="action-buttons">#}
+{#                                        <div class="action-btn edit">#}
+{#                                            <i class="material-icons">edit</i>#}
+{#                                        </div>#}
+{#                                        <div class="action-btn delete">#}
+{#                                            <i class="material-icons">delete</i>#}
+{#                                        </div>#}
+{#                                    </div>#}
+{#                                </td>#}
+{#                            </tr>#}
+{#                            <tr>#}
+{#                                <td>Sarah Johnson</td>#}
+{#                                <td>sarah.j@example.com</td>#}
+{#                                <td>Caretaker</td>#}
+{#                                <td><span class="status active">Active</span></td>#}
+{#                                <td>5 hours ago</td>#}
+{#                                <td>#}
+{#                                    <div class="action-buttons">#}
+{#                                        <div class="action-btn edit">#}
+{#                                            <i class="material-icons">edit</i>#}
+{#                                        </div>#}
+{#                                        <div class="action-btn delete">#}
+{#                                            <i class="material-icons">delete</i>#}
+{#                                        </div>#}
+{#                                    </div>#}
+{#                                </td>#}
+{#                            </tr>#}
+{#                            <tr>#}
+{#                                <td>Michael Brown</td>#}
+{#                                <td>m.brown@example.com</td>#}
+{#                                <td>Visually Impaired</td>#}
+{#                                <td><span class="status inactive">Inactive</span></td>#}
+{#                                <td>2 days ago</td>#}
+{#                                <td>#}
+{#                                    <div class="action-buttons">#}
+{#                                        <div class="action-btn edit">#}
+{#                                            <i class="material-icons">edit</i>#}
+{#                                        </div>#}
+{#                                        <div class="action-btn delete">#}
+{#                                            <i class="material-icons">delete</i>#}
+{#                                        </div>#}
+{#                                    </div>#}
+{#                                </td>#}
+{#                            </tr>#}
+{#                            <tr>#}
+{#                                <td>Emily Davis</td>#}
+{#                                <td>emily.davis@example.com</td>#}
+{#                                <td>Caretaker</td>#}
+{#                                <td><span class="status pending">Pending</span></td>#}
+{#                                <td>1 day ago</td>#}
+{#                                <td>#}
+{#                                    <div class="action-buttons">#}
+{#                                        <div class="action-btn edit">#}
+{#                                            <i class="material-icons">edit</i>#}
+{#                                        </div>#}
+{#                                        <div class="action-btn delete">#}
+{#                                            <i class="material-icons">delete</i>#}
+{#                                        </div>#}
+{#                                    </div>#}
+{#                                </td>#}
+{#                            </tr>#}
+{#                            <tr>#}
+{#                                <td>Robert Wilson</td>#}
+{#                                <td>r.wilson@example.com</td>#}
+{#                                <td>Visually Impaired</td>#}
+{#                                <td><span class="status active">Active</span></td>#}
+{#                                <td>30 minutes ago</td>#}
+{#                                <td>#}
+{#                                    <div class="action-buttons">#}
+{#                                        <div class="action-btn edit">#}
+{#                                            <i class="material-icons">edit</i>#}
+{#                                        </div>#}
+{#                                        <div class="action-btn delete">#}
+{#                                            <i class="material-icons">delete</i>#}
+{#                                        </div>#}
+{#                                    </div>#}
+{#                                </td>#}
+{#                            </tr>#}
+{#                        </tbody>#}
+{#                    </table>#}
+{#                </div>#}
+{#            </div>#}
+{##}
+{#            <!-- Recent Activity -->#}
+{#            <div class="card">#}
+{#                <div class="card-header">#}
+{#                    <h3>Recent Activity</h3>#}
+{#                </div>#}
+{#                <div class="card-body">#}
+{#                    <table class="table">#}
+{#                        <thead>#}
+{#                            <tr>#}
+{#                                <th>User</th>#}
+{#                                <th>Activity</th>#}
+{#                                <th>Time</th>#}
+{#                                <th>Device</th>#}
+{#                            </tr>#}
+{#                        </thead>#}
+{#                        <tbody>#}
+{#                            <tr>#}
+{#                                <td>John Smith</td>#}
+{#                                <td>Object detection alert</td>#}
+{#                                <td>10:23 AM</td>#}
+{#                                <td>Device #A245</td>#}
+{#                            </tr>#}
+{#                            <tr>#}
+{#                                <td>Sarah Johnson</td>#}
+{#                                <td>Assistance request</td>#}
+{#                                <td>09:45 AM</td>#}
+{#                                <td>Device #B782</td>#}
+{#                            </tr>#}
+{#                            <tr>#}
+{#                                <td>Michael Brown</td>#}
+{#                                <td>Navigation assistance</td>#}
+{#                                <td>Yesterday</td>#}
+{#                                <td>Device #C156</td>#}
+{#                            </tr>#}
+{#                            <tr>#}
+{#                                <td>Emily Davis</td>#}
+{#                                <td>Text recognition</td>#}
+{#                                <td>Yesterday</td>#}
+{#                                <td>Device #D893</td>#}
+{#                            </tr>#}
+{#                            <tr>#}
+{#                                <td>Robert Wilson</td>#}
+{#                                <td>Emergency alert</td>#}
+{#                                <td>2 days ago</td>#}
+{#                                <td>Device #E421</td>#}
+{#                            </tr>#}
+{#                        </tbody>#}
+{#                    </table>#}
+{#                </div>#}
+{#            </div>#}
+{#        </div>#}
+{#    </div>#}
 
 {#    <script>#}
 {#        // Simple JavaScript for interactive elements#}
@@ -684,5 +688,6 @@
 {#            });#}
 {#        });#}
 {#    </script>#}
+
 </body>
 </html>

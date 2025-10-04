@@ -10,3 +10,6 @@ def login(request):
 
 def adminhome(request):
     return render(request,'adminpanel/adminpanel.html')
+
+def caretaker(request):
+    return render(request,'adminpanel/verify.html')
