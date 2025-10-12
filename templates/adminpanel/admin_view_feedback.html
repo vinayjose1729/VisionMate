@@ -1,4 +1,5 @@
-{% include "adminpanel/admin_header.html"%}
+
+{% include "adminpanel/admin_header.html" %}
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -44,6 +45,11 @@
       text-decoration: underline;
     }
 
+    .container{
+        width:50%;
+        margin:40px auto;
+    }
+
     .status {
       font-weight: bold;
     }
@@ -79,34 +85,30 @@
     }
   </style>
   <div class="main-content">
-  <h2>Caretaker Verification Table</h2>
 
-  <table>
-    <thead>
-      <tr>
-        <th>ID</th>
-        <th>Full Name</th>
-        <th>Email</th>
-        <th>Phone number</th>
-        <th>Status</th>
-        <th>Action</th>
-      </tr>
-    </thead>
+          <div class="feedback-container">
+<h2> User Feedback</h2>
+<table>
+<tr>
+<th>ID</th>
+<th>Feedback</th>
+    <th>Date</th>
+    <th></th>
+</tr>
+<tr>
+    <td>1</td>
+<td>Great service!</td>
+     <td>12/03/2026</td>
+     <td>
+         <button><span style=font-size:18px;">&#128077;</span>    Like</button>
+     </td>
+</tr>
 
-    <tbody>
-      <tr>
-        <td>001</td>
-        <td>CareTaker</td>
-        <td>caretaker@example.com</td>
-        <td class="tel">0000000000 </td>
-        <td class="status pending">Pending</td>
-        <td class="actions">
-          <button class="approve">Approve</button>
-          <button class="reject">Reject</button>
-        </td>
-      </tr>
-    </tbody>
-  </table>
+</table>
 
-</div>
+
+      </div>
+
+  </div>
+
 

@@ -1,0 +1,251 @@
+
+{% include "adminpanel/admin_header.html" %}
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f8fafc;
+      padding: 40px;
+    }
+
+    h2 {
+      text-align: center;
+      color: #333;
+      margin-bottom: 20px;
+    }
+
+    table {
+      width: 90%;
+      max-width: 900px;
+      margin: auto;
+      border-collapse: collapse;
+      background: white;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    th, td {
+      padding: 14px 12px;
+      text-align: left;
+      border-bottom: 1px solid #eee;
+    }
+
+    th {
+      background-color: #e9f1ff;
+      color: #333;
+      font-weight: bold;
+    }
+
+    td a {
+      color: #007bff;
+      text-decoration: none;
+    }
+
+    td a:hover {
+      text-decoration: underline;
+    }
+
+    .status {
+      font-weight: bold;
+    }
+
+    .pending {
+      color: #f0ad4e;
+    }
+
+    .approved {
+      color: #28a745;
+    }
+
+    .rejected {
+      color: #dc3545;
+    }
+
+    .actions button {
+      padding: 6px 12px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      color: white;
+      font-size: 14px;
+      margin-right: 6px;
+    }
+
+    .approve {
+      background-color: #28a745;
+    }
+
+    .reject {
+      background-color: #dc3545;
+    }
+  </style>
+  <div class="main-content">
+  <h2>Complaint Box</h2>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Id</th>
+        <th><Full name/th>
+        <th>Date</th>
+        <th>Complaints</th>
+          <th></th>
+
+      </tr>
+    </thead>
+
+
+      <tbody>
+      <tr>
+        <td>001</td>
+        <td>Angel Rose</td>
+        <td>12/10/25</td>
+          <td> </td>
+          <td><a href="{% url "admin_complaint_reply" %}">Reply</a></td>
+
+      </tr>
+    </tbody>
+
+      <tbody>
+      <tr>
+        <td>002</td>
+        <td>Anagha</td>
+        <td>12/10/25</td>
+         <td> </td>
+          <td><a href="{% url "admin_complaint_reply" %}">Reply</a></td>
+
+      </tr>
+    </tbody>
+  </table>
+
+
+{#      <div id = "popup" class="modal">#}
+{#          <div class="modal-content">#}
+{#              <span class="close">&times;</span>#}
+{#              <h2>Reply to Complaint</h2>#}
+{#    <textarea placeholder="Type your reply..."></textarea>#}
+{#    <button>Send</button>#}
+{#  </div>#}
+{#</div>#}
+
+
+
+{#          </div>#}
+{#           <textarea id="reply-text" placeholder="type your reply..."></textarea>#}
+{#                    <button id="send-reply">Send</button>#}
+{#          <button id="cancel-reply">Cancel</button>#}
+
+
+
+
+
+{##}
+{#{% include "adminpanel/admin_header.html" %}#}
+{#  <style>#}
+{#    body {#}
+{#      font-family: Arial, sans-serif;#}
+{#      background: #f8fafc;#}
+{#      padding: 40px;#}
+{#    }#}
+{##}
+{#    h2 {#}
+{#      text-align: center;#}
+{#      color: #333;#}
+{#      margin-bottom: 20px;#}
+{#    }#}
+{##}
+{#    table {#}
+{#      width: 90%;#}
+{#      max-width: 900px;#}
+{#      margin: auto;#}
+{#      border-collapse: collapse;#}
+{#      background: white;#}
+{#      border-radius: 10px;#}
+{#      overflow: hidden;#}
+{#      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);#}
+{#    }#}
+{##}
+{#    th, td {#}
+{#      padding: 14px 12px;#}
+{#      text-align: left;#}
+{#      border-bottom: 1px solid #eee;#}
+{#    }#}
+{##}
+{#    th {#}
+{#      background-color: #e9f1ff;#}
+{#      color: #333;#}
+{#      font-weight: bold;#}
+{#    }#}
+{##}
+{#    td a {#}
+{#      color: #007bff;#}
+{#      text-decoration: none;#}
+{#    }#}
+{##}
+{#    td a:hover {#}
+{#      text-decoration: underline;#}
+{#    }#}
+{##}
+{#    .status {#}
+{#      font-weight: bold;#}
+{#    }#}
+{##}
+{#    .pending {#}
+{#      color: #f0ad4e;#}
+{#    }#}
+{##}
+{#    .approved {#}
+{#      color: #28a745;#}
+{#    }#}
+{##}
+{#    .rejected {#}
+{#      color: #dc3545;#}
+{#    }#}
+{##}
+{#    .actions button {#}
+{#      padding: 6px 12px;#}
+{#      border: none;#}
+{#      border-radius: 5px;#}
+{#      cursor: pointer;#}
+{#      color: white;#}
+{#      font-size: 14px;#}
+{#      margin-right: 6px;#}
+{#    }#}
+{##}
+{#    .approve {#}
+{#      background-color: #28a745;#}
+{#    }#}
+{##}
+{#    .reject {#}
+{#      background-color: #dc3545;#}
+{#    }#}
+{#  </style>#}
+{#  <div class="main-content">#}
+{##}
+{#<h2>Customer Complaints</h2>#}
+{##}
+{#<table>#}
+{#      <tbody>#}
+{#      <tr>#}
+{#        <td>#}
+{#            <div class="complaint-container">#}
+{#                <div class="complaint-box" style="float:left; width:38%;">#}
+{#                    <p>App is not responding but it was network issue </p>#}
+{#            </div>#}
+{#            <div class="reply-box" style="float:right; width:44%;">#}
+{#                <form>#}
+{#                    <textarea placeholder="type your reply..."></textarea>#}
+{#                    <button type="submit"> Reply</button>#}
+{#                </form>#}
+{##}
+{#            </div>#}
+{#                <div style="clear:both;"> </div>#}
+{#        </td>#}
+{#      </tr>#}
+{##}
+{#    </tbody>#}
+{##}
+{##}
+{#  </table>#}
+{##}
+{#  </div>#}
