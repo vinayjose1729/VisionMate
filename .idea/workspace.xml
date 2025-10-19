@@ -31,7 +31,7 @@
       <file leaf-file-name="verify.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/adminpanel/verify.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1825">
+            <state relative-caret-position="21">
               <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
               <folding />
             </state>
@@ -41,7 +41,7 @@
       <file leaf-file-name="adminpanel.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/adminpanel/adminpanel.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3549">
+            <state relative-caret-position="5691">
               <caret line="271" column="10" lean-forward="false" selection-start-line="271" selection-start-column="10" selection-end-line="271" selection-end-column="10" />
               <folding />
             </state>
@@ -51,7 +51,7 @@
       <file leaf-file-name="admin_header.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/adminpanel/admin_header.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="443">
+            <state relative-caret-position="8379">
               <caret line="399" column="45" lean-forward="false" selection-start-line="399" selection-start-column="45" selection-end-line="399" selection-end-column="45" />
               <folding>
                 <element signature="n#style#0;n#a#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -65,7 +65,7 @@
         <entry file="file://$PROJECT_DIR$/templates/adminpanel/admin_view_blind_users.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="81" selection-end-column="28" />
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="81" selection-end-column="28" />
               <folding>
                 <element signature="n#style#0;n#!!top" expanded="false" />
                 <element signature="e#65#158#0#HTML" expanded="false" />
@@ -77,8 +77,8 @@
       <file leaf-file-name="admin_view_complaint.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/adminpanel/admin_view_complaint.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="115" column="0" lean-forward="true" selection-start-line="115" selection-start-column="0" selection-end-line="115" selection-end-column="0" />
+            <state relative-caret-position="525">
+              <caret line="118" column="10" lean-forward="false" selection-start-line="118" selection-start-column="10" selection-end-line="118" selection-end-column="10" />
               <folding>
                 <marker date="1760253627150" expanded="false" signature="4386:4408" ph="..." />
                 <marker date="1760253627150" expanded="false" signature="4559:4582" ph="..." />
@@ -91,7 +91,7 @@
       <file leaf-file-name="admin_view_feedback.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/adminpanel/admin_view_feedback.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="621">
+            <state relative-caret-position="1869">
               <caret line="89" column="18" lean-forward="false" selection-start-line="89" selection-start-column="18" selection-end-line="89" selection-end-column="18" />
               <folding />
             </state>
@@ -101,7 +101,7 @@
       <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/myapp/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="359">
+            <state relative-caret-position="546">
               <caret line="26" column="25" lean-forward="false" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="25" />
               <folding />
             </state>
@@ -111,7 +111,7 @@
       <file leaf-file-name="admin_complaint_reply.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/adminpanel/admin_complaint_reply.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
+            <state relative-caret-position="1932">
               <caret line="92" column="0" lean-forward="false" selection-start-line="92" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
               <folding>
                 <element signature="n#style#0;n#!!top" expanded="false" />
@@ -125,7 +125,7 @@
         <entry file="file://$PROJECT_DIR$/myapp/urls.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="189">
-              <caret line="11" column="36" lean-forward="true" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
+              <caret line="11" column="36" lean-forward="false" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -213,8 +213,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -275,6 +273,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -553,7 +553,7 @@
     <frame x="-9" y="-9" width="1938" height="1038" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21750806" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2207304" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21534938" sideWeight="0.5042965" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -860,7 +860,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2772">
           <caret line="132" column="32" lean-forward="false" selection-start-line="132" selection-start-column="32" selection-end-line="132" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -868,21 +867,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/myapp/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
-          <caret line="11" column="36" lean-forward="true" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
+          <caret line="11" column="36" lean-forward="false" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/adminpanel/admin_complaint_reply.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
+        <state relative-caret-position="1932">
           <caret line="92" column="0" lean-forward="false" selection-start-line="92" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
           <folding>
             <element signature="n#style#0;n#!!top" expanded="false" />
@@ -894,7 +892,7 @@
     <entry file="file://$PROJECT_DIR$/templates/adminpanel/admin_view_blind_users.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="81" selection-end-column="28" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="81" selection-end-column="28" />
           <folding>
             <element signature="n#style#0;n#!!top" expanded="false" />
             <element signature="e#65#158#0#HTML" expanded="false" />
@@ -912,7 +910,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/adminpanel/verify.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1825">
+        <state relative-caret-position="21">
           <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding />
         </state>
@@ -920,7 +918,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/adminpanel/adminpanel.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3549">
+        <state relative-caret-position="5691">
           <caret line="271" column="10" lean-forward="false" selection-start-line="271" selection-start-column="10" selection-end-line="271" selection-end-column="10" />
           <folding />
         </state>
@@ -928,7 +926,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/adminpanel/admin_view_feedback.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
+        <state relative-caret-position="1869">
           <caret line="89" column="18" lean-forward="false" selection-start-line="89" selection-start-column="18" selection-end-line="89" selection-end-column="18" />
           <folding />
         </state>
@@ -936,7 +934,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/myapp/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="359">
+        <state relative-caret-position="546">
           <caret line="26" column="25" lean-forward="false" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="25" />
           <folding />
         </state>
@@ -944,7 +942,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/adminpanel/admin_header.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="443">
+        <state relative-caret-position="8379">
           <caret line="399" column="45" lean-forward="false" selection-start-line="399" selection-start-column="45" selection-end-line="399" selection-end-column="45" />
           <folding>
             <element signature="n#style#0;n#a#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -955,8 +953,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/adminpanel/admin_view_complaint.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="115" column="0" lean-forward="true" selection-start-line="115" selection-start-column="0" selection-end-line="115" selection-end-column="0" />
+        <state relative-caret-position="525">
+          <caret line="118" column="10" lean-forward="false" selection-start-line="118" selection-start-column="10" selection-end-line="118" selection-end-column="10" />
           <folding>
             <marker date="1760253627150" expanded="false" signature="4386:4408" ph="..." />
             <marker date="1760253627150" expanded="false" signature="4559:4582" ph="..." />
