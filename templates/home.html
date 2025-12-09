@@ -190,14 +190,20 @@
                 </div>
 
                 <!-- Login -->
+                {% if messages %}
+                {% for message in messages %}
+                {{ message }}
+                {% endfor %}
+                {% endif %}
+
 
                 <div class="col-md-5 col-md-offset-1">
 
-                    <form class="signup-form">
+                    <form class="signup-form" method="POST" action="{% url 'login' %}">
 
                         <h2 class="text-center">Login Now</h2>
 
-                        <hr>
+{#                        <hr>#}
 
 
 
@@ -218,28 +224,28 @@
 
                         <div class="form-group">
 
-                            <input type="text" class="form-control" placeholder="User Name" required="required">
+                            <input type="text" name="username" class="form-control" placeholder="User Name" required="required">
 
                         </div>
 
                         <div class="form-group">
 
-                            <input type="password" class="form-control" placeholder="Password" required="required">
+                            <input type="password" name="password" class="form-control" placeholder="Password" required="required">
 
                         </div>
 
                         <div class="form-group text-center">
 
-                            <button type="submit" class="btn btn-blue btn-block">Log In</button>
+                            <button type="submit" class="btn btn-blue btn-block">Login</button>
 
                         </div>
                         <div class="modal-footer text-center">
 
-                    <a href="#">Forgot your password </a>
+                        <a href="#">Forgot your password </a>
 
 {#                    <a href="#">Signup</a>#}
 
-                </div>
+                        </div>
 
                     </form>
 
